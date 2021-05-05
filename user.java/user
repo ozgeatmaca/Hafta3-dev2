@@ -1,0 +1,65 @@
+package ödev;
+
+public class User {
+	private String name;
+	private String tc;
+	private String gender;
+	private String departement;
+	private String mail;
+	private String password;
+	
+	public User () {
+		
+	}
+	
+	public User(String name, String tc, String gender, String departement, String password, String mail) {
+		super();
+		this.name = name;
+		this.tc = tc;
+		this.gender = gender;
+		this.departement = departement;
+		this.mail = mail;
+		this.password = password;
+		
+	}
+	public String getMail() {
+		return mail;
+	}
+	public void setMail(String mail) {
+		this.mail = mail;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getTc() {
+		return tc;
+	}
+	public void setTc(String tc) {
+		this.tc = tc;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	public String getDepartement() {
+		return departement;
+	}
+	public void setDepartement(String departement) {
+		this.departement = departement;
+	}
+	
+	
+	
+
+}

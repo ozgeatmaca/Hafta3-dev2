@@ -1,0 +1,10 @@
+package ödev;
+
+public class Studentmanager extends Usermanager {
+	public void open(Student student2) {
+		
+		System.out.println("Sisteme giriş yaptınız." + student2.getName()+ "Hoşgeldiniz");
+	}
+
+
+}

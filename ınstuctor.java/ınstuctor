@@ -1,0 +1,35 @@
+package ödev;
+
+public class Instuctor extends User {
+	 String name;
+	 String tc;
+	 String gender;
+	 String departement;
+	 String mail;
+	 String password;
+	public Instuctor(String id, String sertifika,String name,String tc,String gender,String password , String departement,String mail) {
+		
+	    super();
+		this.id = id;
+		this.sertifika = sertifika;
+	}
+	
+	private String id;
+	private String sertifika;
+	public String getId() {
+		return id;
+		
+	}
+	public void setId(String id) {
+		this.id = id;
+		
+	}
+	public String getSertifika() {
+		return sertifika;
+	}
+	
+	public void setSertifika(String sertifika) {
+		this.sertifika = sertifika;
+	}
+
+}

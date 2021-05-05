@@ -1,0 +1,9 @@
+package ödev;
+
+public class InstuctorManager extends Usermanager {
+	public void open(Instuctor instuctor2) {
+		System.out.println("Sisteme giriş yaptınız." + instuctor2.getName() + "Hoşgeldiniz");
+	}
+
+
+}

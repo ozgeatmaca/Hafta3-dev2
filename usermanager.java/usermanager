@@ -1,0 +1,13 @@
+package ödev;
+
+public class Usermanager{
+	
+	public void add() {
+		
+	}
+	
+	public void open() {
+		System.out.println("Sisteme giriş yaptınız.");
+	}
+
+}

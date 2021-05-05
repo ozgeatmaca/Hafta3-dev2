@@ -1,0 +1,37 @@
+package ödev;
+
+public class Student extends User {
+	 String name;
+	 String tc;
+	 String gender;
+	 String departement;
+	 String mail;
+	 String password;
+	 
+	private int studentNumber;
+	private String courseNo;
+	
+	public Student(int studentNumber, String courseNo,String name,String tc,String gender,String mail,String password) {
+		super();
+		this.studentNumber = studentNumber;
+		this.courseNo = courseNo;
+	}
+	public Student(String string, String string2, String string3, String string4, String string5, String string6,
+			String string7, String string8) {
+		// TODO Auto-generated constructor stub
+	}
+	public int getStudentNumber() {
+		return studentNumber;
+	}
+	public void setStudentNumber(int studentNumber) {
+		this.studentNumber = studentNumber;
+	}
+	public String getCourseNo() {
+		return courseNo;
+	}
+	public void setCourseName(String courseNo) {
+		this.courseNo = courseNo;
+	}
+	
+ 
+}
